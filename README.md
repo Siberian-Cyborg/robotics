@@ -8,7 +8,7 @@ https://web.am.ed.tum.de/roboterdynamik_praktikum/
 # Direct Kinematics
 Direct Kinematics means you know the angles by which each of the joints/motors turns and you want to calculate the movement/position of the end effector/tool center point (meaning the end of the arm). In the following video the movement of the robot is simulated if each of the joints is rotated by 45 deg one after the other:
 
-https://user-images.githubusercontent.com/96864967/152691136-05cdb22d-2ef9-404a-b397-7dfeab3a6933.mp4
+https://user-images.githubusercontent.com/96864967/152692085-65cdc681-436d-464b-a41d-639a243519b3.mp4
 
 
 # Inverse Kinematics
@@ -24,7 +24,7 @@ Here the same image but with drift compensation. You can see the real and desire
 
 Here a video of the robots motion for a pick and place task. In this case the trajectory of the TCP is given and RMC + Driftcompensation was used to calculate all joint trajectories.
 
-https://user-images.githubusercontent.com/96864967/152691424-5a3f5edf-f25a-411d-b15b-5d8fed13aafe.mp4
+https://user-images.githubusercontent.com/96864967/152692096-a30fb977-e452-4016-bf6d-3c444aa9aeb2.mp4
 
 
 # Dynamics and Control
@@ -33,7 +33,7 @@ The difference between dynamics and kinematics is that the former takes into acc
 
 Here is a video showing the resulting motion of the robot arm:
 
-https://user-images.githubusercontent.com/96864967/152691705-e65bdf13-ce32-4ed7-81c9-a93e528240bb.mp4
+https://user-images.githubusercontent.com/96864967/152692112-d083037b-1a3a-4bfa-bb1c-8e899a0e2937.mp4
 
 
 # Path Planning
@@ -47,7 +47,7 @@ The image below shows a point to point method that uses quintic polynoms to conn
 
 here the robots motion:
 
-https://user-images.githubusercontent.com/96864967/152690627-c3e38723-28f4-441c-a012-d65541e7c0d9.mp4
+https://user-images.githubusercontent.com/96864967/152692142-972941ca-8729-448a-8545-8f0e5df4af0b.mp4
 
 
 ## Cubic Splines
@@ -58,7 +58,9 @@ The image below shows a continous method using cubic splines to find a smooth tr
 
 here the robots motion:
 
-https://user-images.githubusercontent.com/96864967/152690650-dd3089a1-dae2-4e1a-9604-5895bed43b3c.mp4
+
+https://user-images.githubusercontent.com/96864967/152692152-d852ef2b-d9d4-430e-af5f-508b317324b2.mp4
+
 
 
 ## Parabolic Blends
@@ -68,7 +70,9 @@ The image below shows the method using parabolic blending. The robot will not re
 
 here the robots motion:
 
-https://user-images.githubusercontent.com/96864967/152690754-99215d63-f341-4b73-9ded-1333081f1998.mp4
+https://user-images.githubusercontent.com/96864967/152692155-c9128fa3-f158-4903-aad0-3558964aa7cc.mp4
+
+
 
 
 
