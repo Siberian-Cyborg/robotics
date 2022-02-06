@@ -2,7 +2,7 @@
 Direct and inverse kinematics and dynamics of a serial 6DOF robot arm written in Matlab
 
 
-Use the following browser based tool to animate the robot
+Use the following browser based tool to animate the robot.
 https://web.am.ed.tum.de/roboterdynamik_praktikum/
 
 # Direct Kinematics
@@ -31,7 +31,8 @@ https://user-images.githubusercontent.com/96864967/152691424-5a3f5edf-f25a-411d-
 The difference between dynamics and kinematics is that the former takes into account forces/torques whereas the latter only deals with velocities and accelerations and pretends the world is weightless. In the code a trjectory for the TCP was given. First the inverse dynamics for the trajectory were calculated, meaning we obtain the torques for every motor necessary to follow the fiven TCP trajectory. Afterwards the torques were used to simulate the trajectory using the direct dynamics of the system. A controller was added to compensate for drift due to numerical errors.
 
 
-Here is a video showing the resulting motion of the robot arm
+Here is a video showing the resulting motion of the robot arm:
+
 https://user-images.githubusercontent.com/96864967/152691705-e65bdf13-ce32-4ed7-81c9-a93e528240bb.mp4
 
 
@@ -45,6 +46,7 @@ The image below shows a point to point method that uses quintic polynoms to conn
 <img src="https://user-images.githubusercontent.com/96864967/152689973-166e7668-1d7e-491f-b9a9-fa2f10d12d1b.png" width="500" height="500">
 
 here the robots motion:
+
 https://user-images.githubusercontent.com/96864967/152690627-c3e38723-28f4-441c-a012-d65541e7c0d9.mp4
 
 
@@ -55,6 +57,7 @@ The image below shows a continous method using cubic splines to find a smooth tr
 
 
 here the robots motion:
+
 https://user-images.githubusercontent.com/96864967/152690650-dd3089a1-dae2-4e1a-9604-5895bed43b3c.mp4
 
 
@@ -64,6 +67,7 @@ The image below shows the method using parabolic blending. The robot will not re
 <img src="https://user-images.githubusercontent.com/96864967/152690219-51905f67-48e5-4085-b66b-f8c11a17c0f0.png" width="500" height="500">
 
 here the robots motion:
+
 https://user-images.githubusercontent.com/96864967/152690754-99215d63-f341-4b73-9ded-1333081f1998.mp4
 
 
