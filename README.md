@@ -13,7 +13,9 @@ Four different algorithms for planning a trjectory thru a set of waypoints were 
 
 The image below shows a point to point method that uses quintic polynoms to connect the points. The robot makes a full stop at each waypoint.
 
-![Path](https://user-images.githubusercontent.com/96864967/152689973-166e7668-1d7e-491f-b9a9-fa2f10d12d1b.png | width=100)
+<img src="https://user-images.githubusercontent.com/96864967/152689973-166e7668-1d7e-491f-b9a9-fa2f10d12d1b.png" width="100" height="100">
+
+![Path](https://user-images.githubusercontent.com/96864967/152689973-166e7668-1d7e-491f-b9a9-fa2f10d12d1b.png)
 
 
 here the robots motion:
