@@ -1,8 +1,9 @@
 # robotics
 Direct and inverse kinematics and dynamics of a serial 6DOF robot arm written in Matlab
 
+To run the scripts you will need MATLAB. Simply download the scripts open them with matlab go to the main file of the respective folder and press play. You can set different flags to toggle options. The resulting trajectories are wirtten into a csv file which can be used for simulating the robots motion.
 
-Use the following browser based tool to animate the robot.
+Use the following browser based tool to animate the robot. In the upper left corner you can upload the csv file containing the trajectory to simulate.
 https://web.am.ed.tum.de/roboterdynamik_praktikum/
 
 # Direct Kinematics
