@@ -58,13 +58,13 @@ for i = 1:rob.N_Q
         %     Vorgaenger-Koerpers bereits berechnet wurde
 
         % -----------------------------------------------------------------
-        % Aufgabe 2.1: Direkte Kinematik mit Vektorkette
+        % Direkte Kinematik mit Vektorkette
         %rob = berechne_dk_positionen_vektorkette(rob);
 
-        % Aufgabe 2.2: Direkte Kinematik mit homogenen Transformationsmatrizen
+        % irekte Kinematik mit homogenen Transformationsmatrizen
          %rob = berechne_dk_positionen_dh_trafo(rob);
 
-         % Aufgabe 2.3: Direkte Kinematik auf Geschwindigkeitsebene 
+         %Direkte Kinematik auf Geschwindigkeitsebene 
          %rob = berechne_dk_geschwindigkeiten(rob);
 
         % Aufgabe 3 Bonusaufgabe: Effiziente Berechnung der direkten Kinematik auf Positionsebene
